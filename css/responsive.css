@@ -1,0 +1,84 @@
+@media (max-width: 1024px) {
+    .blocks {
+        justify-content: space-around;
+    } 
+    .box1 h2 {
+        font-size: 45px;
+    }
+}
+@media (max-width: 960px) {
+    .box1 h2 {
+        font-size: 42px;
+    }
+
+}
+@media (max-width: 920px) {
+    .box1 h2 {
+        font-size: 38px;
+    }
+    .box1 p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 890px) {
+    .section1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box1 {
+        justify-content: center;
+        align-items: center;
+    }
+    .box1 h2 {
+        font-size: 50px;
+    }
+    .box1 p {
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+    }
+    .box2 img {
+        max-width: 462px;
+        width: 100%;
+    }
+    .section2 h2 {
+        font-size: 30px;
+    }
+    .section2 p {
+        line-height: 20px;
+    }
+    .box1 h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .box1 p {
+        font-size: 12px;
+    }
+    .box2 img {
+        max-width: 462px;
+        width: 100%;
+    }
+    .blocks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2 h3 {
+        text-align: center;
+    }
+    .section2-intro {
+        margin-bottom: 50px;
+    }
+    .inner-block {
+        max-width: 300px;
+        width: 100%;
+    }
+}
